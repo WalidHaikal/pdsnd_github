@@ -1,1 +1,3 @@
 .github/**
+exclude tracking 
+*.csv
