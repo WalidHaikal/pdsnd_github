@@ -10,7 +10,7 @@ Original file is located at
 import time
 import pandas as pd
 import numpy as np
-import calendar
+import time
 
 months = ['january', 'february', 'march', 'april', 'may', 'june']
 
@@ -107,7 +107,7 @@ def time_stats(df):
     print ('The most common month is: ', common_month, '\n')
 
 
-    # TO DO: display the most common day of week
+    # display the most common day of week
     common_day = df ['day_of_week'].mode()[0]
     print ('the most common day is: ', common_day, '\n')
 
