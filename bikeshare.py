@@ -10,7 +10,6 @@ Original file is located at
 import time
 import pandas as pd
 import numpy as np
-import time
 
 months = ['january', 'february', 'march', 'april', 'may', 'june']
 
@@ -106,20 +105,16 @@ def time_stats(df):
     common_month = months [df['month'].mode()[0] - 1 ].title()
     print ('The most common month is: ', common_month, '\n')
 
-
     # display the most common day of week
     common_day = df ['day_of_week'].mode()[0]
     print ('the most common day is: ', common_day, '\n')
-
 
     # display the most common start hour
     common_s_hour = df ['hour'].mode () [0]
     print ('the most common start hour is: ', common_s_hour)
 
-
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
 
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
@@ -142,7 +137,6 @@ def station_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
 
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
