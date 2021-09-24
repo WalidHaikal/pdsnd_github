@@ -1,20 +1,24 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
+** My Project
 
 ### Date created
-21 Sep 2021
+22 Sep 2021
+
 ### Project Title
 Udacity-Project-Explore-US-Bikeshare-Data
 
 ### Description
 In this project, you will make use of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. You will write code to import the data and answer interesting questions about it by computing descriptive statistics. You will also write a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
+### Benifet of bikeshare project in the real world:
+The objective of the BikeSahre project is to assist and support the customer to get the needed information about the Bikes Sharing in 3 cities in USA; Chicago, New York City, and Washington through statistical and analytical methods Based on the customer input the required data will be shared with him/her.
+
 ### Files used
+This repository contains: Three csv files, And one python file written to assess the data.
+
 bikeshare.py       - final project
 chicago.zip        - dataset used for analysis (zipped csv file)
 new_york_city.zip  - dataset used for analysis (zipped csv file)
 washington.zip     - dataset used for analysis (zipped csv file)
-bikeshare.py       - final project
 
 ### Running the program:
 You can input 'python bikeshare.py' on your terminal to run this program. I use Anaconda's command prompt on a Windows 10 machine.
@@ -28,14 +32,21 @@ time         - One of the libraries used for this.
 ### Requirements:
 Language: Python 3.6 or above
 Libraries: pandas, numpy, time
+A text editor, like Sublime or Atom.
+A terminal application (Terminal on Mac and Linux or Cygwin on Windows).
 
-### How to run the project
+### How to run the project:
 Clone the project
 Prerequisite
 You must have installed python and libraries like numpy and pandas.
 Run the project
 Open the terminal
 And run python bikeshare.py
+
+###To use the project:
+
+Place the bikeshare.py file and all the CSV files in the same folder.
+Run the python file using a suitable python interpreter.
 
 ### What Software Do I Need?
 To complete this project, the following software requirements apply:
@@ -79,4 +90,5 @@ For more information, please refer to <http://unlicense.org>
 - https://pandas.pydata.org/pandas-docs/version/0.17.0/
 - http://jupyter.org/
 - https://git-scm.com/
-
+- https://www.python.org/doc/
+- https://www.w3schools.com/python/python_intro.asp
